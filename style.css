@@ -33,6 +33,7 @@ h2 {
 .left,
 .right {
   width: 50%;
+  padding-left: 5%;
 }
 
 .left p,
