@@ -6,6 +6,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .color-text {
   color: tomato;
 }
@@ -13,22 +16,23 @@ h1 {
 .color-orange {
   color: orange;
 }
-
-.header-container {
+.flexible-container {
   display: flex;
-  background-image: url(images/top-banner.png);
-  background-repeat: no-repeat;
   margin-bottom: 75px;
 }
+.header-container {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
 
+.header-container,
+.dream-container,
+.experience-container {
+  padding: 0 7.5%;
+}
 .left,
 .right {
   width: 50%;
-  padding-left: 7%;
-}
-
-.left {
-  padding-top: 2.5%;
 }
 
 .left p,
@@ -54,8 +58,39 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
-.dream-text {
+/* .dream-text {
   padding-top: 50px;
   text-align: justify;
   padding-right: 10%;
+} */
+.experience-container {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
+.left-experience-card {
+  margin-right: 2%;
+  box-shadow: 5px 5px 50px #808080;
+  border-left: 7px solid;
+  border-image: linear-gradient(tomato, orange);
+  border-image-slice: 1;
+  padding-left: 4.5%;
+  padding-right: 1%;
+  padding-bottom: 10%;
+}
+.right-experience-card {
+  margin-left: 2%;
+  box-shadow: 5px 5px 50px #808080;
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  padding-left: 4.5%;
+  padding-right: 1%;
+  padding-bottom: 10%;
+}
+
+/* .left-box,
+.right-box {
+  width: 50%;
+  padding-left: 7%;
+} */
