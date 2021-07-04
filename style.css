@@ -68,6 +68,7 @@ h2 {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
+  padding-bottom: 75px;
 }
 .left-experience-card {
   margin-right: 2%;
@@ -95,3 +96,7 @@ h2 {
   width: 50%;
   padding-left: 7%;
 } */
+
+footer p {
+  text-align: center;
+}
